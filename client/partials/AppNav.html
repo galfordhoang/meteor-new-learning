@@ -1,0 +1,11 @@
+<template name="AppNav">
+    <div class="app-nav">
+        <ul>
+            <li><a href="/"><i class="fa fa-dashboard"></i> <span>Dashboard</span></a></li>
+            {{#if isInRole 'admin'}}
+              <li><a href="/admin/users"><i class="fa fa-users"></i> <span>Users Management</span></a></li>
+            {{/if}}
+            <li><a href="/chatapp"><i class="fa fa-cube"></i> <span>Chat Application</span></a></li>
+        </ul>
+    </div>
+</template>
