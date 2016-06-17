@@ -1,4 +1,4 @@
-# Level Up Tutorials Meteor Blaze Base
+My New Learning of Meteor JS Framework
 
 
 ## How To Use
@@ -6,13 +6,12 @@
 Clone or download this repo. Browse to wherever downloaded in your terminal.
 
 ```
-cd base-blaze
+cd meteor-learning
 meteor
 ```
 
 Open up http://localhost:3000 and see this.
 
-![Topics In Meteor](/public/topics.png)
 
 ## What is this?
 
